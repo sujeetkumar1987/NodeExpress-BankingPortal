@@ -16,8 +16,8 @@ app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 
 
-app.listen(port, '127.0.0.1', 511, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+app.listen(port, () => {
+  console.log(`PS Project Running on port 3000!`)
 });
 
 // app.listen(3000,'0.0.0.0',function(){
